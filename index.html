@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cynthia Maphakathi - Front-End Web Developer | South Africa</title>
+    <meta name="description" content="Cynthia Maphakathi | Front-End Web Developer in South Africa | Building responsive web applications with React, JavaScript & Python | Available for remote work" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- Font Awesome -->
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
+        integrity="sha512-9usAa10IRO0HBK89xjO9rFp89jgUBaSaG16zVhngEhb9tJIBFEG2vtPClDOHKuYzAIHxKRaC2C0VPLm2iMZPvQ==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">CYNN</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button id="dark-mode-toggle" aria-label="Toggle Dark Mode">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Cynthia Maphakathi</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Front-End Web Developer | Building Responsive Web Applications</h2>
+                    <p class="hero-subtitle-small">Aspiring Full-Stack Developer | React, JavaScript & Python</p>
+                    <p class="hero-description">
+                        Creating modern, responsive web applications with clean code and thoughtful design. 
+                        Specializing in React development and API integration, with a growing full-stack skillset.
+                        Ready to contribute to South African tech companies.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn-primary">View My Work</a>
+                        <a href="#contact" class="btn-secondary">Get In Touch</a>
+                        <a href="path/to/your-cv.pdf" class="btn-cv" download target="_blank">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                    <div class="availability-badge">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Available in South Africa | Remote & Hybrid Ready</span>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <img src="Images/MYPHOTO.jpg" alt="Cynthia Maphakathi profile image" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <a href="#about" aria-label="Scroll to About section">
+                    <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I'm a passionate Front-End Web Developer based in South Africa with a strong foundation in 
+                        building responsive, user-friendly web applications. My journey from curiosity to creating 
+                        sophisticated applications demonstrates my commitment to continuous learning and growth.
+                    </p>
+                    <p class="about-description">
+                        Currently expanding my skillset toward full-stack development, I specialize in React, 
+                        JavaScript, and Python. I'm experienced in creating modern web solutions that solve 
+                        real-world problems for South African businesses and communities.
+                    </p>
+                    
+                    <!-- Learning Journey Section -->
+                    <div class="learning-journey">
+                        <h3>My Full-Stack Learning Journey</h3>
+                        <div class="journey-path">
+                            <div class="journey-stage completed">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <strong>Frontend Mastery</strong>
+                                    <span>HTML, CSS, JavaScript, React</span>
+                                </div>
+                            </div>
+                            <div class="journey-stage current">
+                                <i class="fas fa-code"></i>
+                                <div>
+                                    <strong>Currently Learning</strong>
+                                    <span>Node.js, Express, MongoDB</span>
+                                </div>
+                            </div>
+                            <div class="journey-stage upcoming">
+                                <i class="fas fa-rocket"></i>
+                                <div>
+                                    <strong>Next Goals</strong>
+                                    <span>TypeScript, Next.js, PostgreSQL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                            <h3>Responsive Design</h3>
+                            <p>Creating seamless experiences across all devices and screen sizes</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-chart-line" aria-hidden="true"></i>
+                            <h3>Modern Development</h3>
+                            <p>Using latest technologies and best practices in web development</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                            <h3>Local Focus</h3>
+                            <p>Understanding South African market needs and business requirements</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5" aria-hidden="true"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt" aria-hidden="true"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js" aria-hidden="true"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react" aria-hidden="true"></i>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Backend & Data</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python" aria-hidden="true"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database" aria-hidden="true"></i>
+                            <span>API Integration</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-bar" aria-hidden="true"></i>
+                            <span>Data Analysis</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server" aria-hidden="true"></i>
+                            <span>Database Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Tools & Workflow</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt" aria-hidden="true"></i>
+                            <span>Git & GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code" aria-hidden="true"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cog" aria-hidden="true"></i>
+                            <span>Webpack, Vite</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cloud" aria-hidden="true"></i>
+                            <span>Netlify, Vercel</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Additional Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-vial" aria-hidden="true"></i>
+                            <span>Unit Testing</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-wordpress" aria-hidden="true"></i>
+                            <span>WordPress</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                            <span>Responsive Design</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server" aria-hidden="true"></i>
+                            <span>cPanel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Services I Provide</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Web Design</h3>
+                    <p>Creating mobile-first websites that look perfect on all devices and screen sizes</p>
+                    <ul class="service-features">
+                        <li>Mobile-first approach</li>
+                        <li>Cross-browser compatibility</li>
+                        <li>Performance optimization</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React Application Development</h3>
+                    <p>Building dynamic, interactive web applications using modern React best practices</p>
+                    <ul class="service-features">
+                        <li>Component-based architecture</li>
+                        <li>State management</li>
+                        <li>API integration</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Website Maintenance & Updates</h3>
+                    <p>Keeping your website secure, updated, and running smoothly</p>
+                    <ul class="service-features">
+                        <li>Regular updates</li>
+                        <li>Security monitoring</li>
+                        <li>Performance optimization</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Implementation</h3>
+                    <p>Transforming designs into pixel-perfect, interactive web interfaces</p>
+                    <ul class="service-features">
+                        <li>Design to code</li>
+                        <li>User experience focus</li>
+                        <li>Modern animations</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3>API Integration</h3>
+                    <p>Connecting your website to third-party services and databases</p>
+                    <ul class="service-features">
+                        <li>RESTful APIs</li>
+                        <li>Payment gateways</li>
+                        <li>Social media integration</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database Design</h3>
+                    <p>Designing and implementing efficient database solutions for web applications</p>
+                    <ul class="service-features">
+                        <li>Schema design</li>
+                        <li>Data optimization</li>
+                        <li>Python integration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+
+                <!-- Project 1: Bet to Win Pro (Reframed) -->
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <img src="https://bettowinpro.netlify.app/Images/daily-lotto-bg.jpg" alt="Full-Stack Sports Analytics Platform for South African Market" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://bettowinpro.netlify.app/" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-external-link-alt" aria-hidden="true"></i> Live Demo
+                                </a>
+                                <a href="https://github.com/CynthiaMaphakathi/ultimatebettowin" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github" aria-hidden="true"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Full-Stack Sports Analytics Platform</h3>
+                            <span class="project-badge">Featured</span>
+                        </div>
+                        <p class="project-description">
+                            A comprehensive analytics platform built for the South African market featuring real-time data processing, 
+                            user authentication, and responsive design. Demonstrates full understanding of local market needs and 
+                            business requirements.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature">Real-time Data Processing</span>
+                            <span class="feature">User Authentication</span>
+                            <span class="feature">Mobile-first Design</span>
+                            <span class="feature">Built for SA Market</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Data Visualization</span>
+                            <span class="tech-tag">API Integration</span>
+                            <span class="tech-tag">Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Business Landing Page (New) -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x200/2563eb/ffffff?text=Business+Landing+Page" alt="Modern Business Landing Page with Contact Forms and Google Maps" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-external-link-alt" aria-hidden="true"></i> Live Demo
+                                </a>
+                                <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github" aria-hidden="true"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Modern Business Landing Page</h3>
+                        <p class="project-description">
+                            A professional business website template featuring contact forms, Google Maps integration, 
+                            and mobile-responsive design. Perfect for restaurants, salons, and small businesses.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature">Contact Form Integration</span>
+                            <span class="feature">Google Maps API</span>
+                            <span class="feature">Mobile Responsive</span>
+                            <span class="feature">Modern Design</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Google Maps API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: African Cynnique (Reframed) -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://africancynnique.netlify.app/Images/COVER.jpg" alt="E-commerce Cultural Platform with Payment Integration" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://africancynnique.netlify.app/" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-external-link-alt" aria-hidden="true"></i> Live Demo
+                                </a>
+                                <a href="https://github.com/CynthiaMaphakathi/africancynnique" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github" aria-hidden="true"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-commerce Cultural Platform</h3>
+                        <p class="project-description">
+                            A full-featured e-commerce platform celebrating South African cuisine with payment integration, 
+                            content management system, and mobile-first design. Includes digital product sales and community features.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature">Payment Integration</span>
+                            <span class="feature">Content Management</span>
+                            <span class="feature">Mobile-first Design</span>
+                            <span class="feature">Digital Products</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Payhip API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Ultimate Flappy Bird -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://ultimateflappybirdgame.netlify.app/Images/Flappy.png" alt="Interactive HTML5 Game with Advanced JavaScript" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://ultimateflappybirdgame.netlify.app/" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-gamepad" aria-hidden="true"></i> Play Game
+                                </a>
+                                <a href="https://github.com/CynthiaMaphakathi/ultimateflappybirdgame" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github" aria-hidden="true"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Interactive HTML5 Game</h3>
+                        <p class="project-description">
+                            Advanced JavaScript game development showcasing object-oriented programming, collision detection, 
+                            and smooth animations. Features level progression and in-memory storage implementation.
+                        </p>
+                        <div class="project-features">
+                            <span class="feature">Object-Oriented Programming</span>
+                            <span class="feature">Collision Detection</span>
+                            <span class="feature">In-Memory Storage</span>
+                            <span class="feature">Game Physics</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5 Canvas</span>
+                            <span class="tech-tag">Advanced JavaScript</span>
+                            <span class="tech-tag">Game Development</span>
+                            <span class="tech-tag">Animation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Availability Section -->
+    <section class="availability">
+        <div class="container">
+            <div class="availability-content">
+                <h2>Ready to Contribute to South African Tech</h2>
+                <p>Based in Klerksdorp, North West Province</p>
+                <div class="availability-options">
+                    <div class="availability-item">
+                        <i class="fas fa-home"></i>
+                        <h3>Remote Work</h3>
+                        <p>Available for remote positions across South Africa</p>
+                    </div>
+                    <div class="availability-item">
+                        <i class="fas fa-building"></i>
+                        <h3>Hybrid Opportunities</h3>
+                        <p>Open to hybrid roles in major cities (Johannesburg, Cape Town, Pretoria)</p>
+                    </div>
+                    <div class="availability-item">
+                        <i class="fas fa-handshake"></i>
+                        <h3>Contract or Permanent</h3>
+                        <p>Flexible for both contract projects and permanent positions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Build Something Amazing Together</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ready to Start Your Project</h3>
+                    <p>
+                        I'm actively seeking opportunities with South African companies and international 
+                        clients. Whether you need a front-end developer, have a React project, or want to 
+                        build a complete web solution, let's discuss how I can help.
+                    </p>
+                    <div class="contact-methods">
+                        <a href="https://github.com/CynthiaMaphakathi" class="contact-method" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://linkedin.com/in/cynthia-maphakathi" class="contact-method" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="tel:+27-your-number" class="contact-method">
+                            <i class="fas fa-phone" aria-hidden="true"></i>
+                            <span>Call Me</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form 
+                    action="https://formspree.io/f/mgvzdwbp" 
+                    method="POST" 
+                    class="contact-form"
+                    aria-label="Contact form for Cynthia Maphakathi"
+                >
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your full name" required autocomplete="name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required autocomplete="email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select inquiry type</option>
+                            <option value="job-opportunity">Job Opportunity</option>
+                            <option value="freelance-project">Freelance Project</option>
+                            <option value="collaboration">Collaboration</option>
+                            <option value="general">General Inquiry</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            rows="5" 
+                            placeholder="Tell me about your project, opportunity, or idea..." 
+                            required
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                    <p class="form-status">
+                        After submitting, I'll get back to you within 24 hours.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Cynthia Maphakathi. Front-End Web Developer | South Africa | Built with passion, code, and Ubuntu.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/CynthiaMaphakathi" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://linkedin.com/in/cynthia-maphakathi" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="path/to/your-cv.pdf" target="_blank" download>Download CV</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
